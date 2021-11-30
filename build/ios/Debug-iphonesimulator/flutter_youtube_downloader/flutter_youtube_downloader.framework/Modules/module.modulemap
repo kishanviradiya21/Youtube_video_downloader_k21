@@ -1,0 +1,11 @@
+framework module flutter_youtube_downloader {
+  umbrella header "flutter_youtube_downloader-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module flutter_youtube_downloader.Swift {
+    header "flutter_youtube_downloader-Swift.h"
+    requires objc
+}
